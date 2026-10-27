@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>NurQur’an — Al-Qur’an Digital & Jadwal Salat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header><a class="logo" href="#/">☪ NurQur’an</a><span class="dates" data-b="dates"></span>
+        <div class="tools"><button class="btn" id="sbtn" aria-label="Cari surah atau ayat">🔍</button><button
+                class="btn" id="theme" aria-label="Ganti mode terang/gelap">🌓</button></div>
+    </header>
+    <nav aria-label="Navigasi utama"><a href="#/">Beranda</a><a href="#/quran">Al-Qur’an</a><a href="#/jadwal">Jadwal
+            Salat</a><a href="#/doa">Doa</a><a href="#/setelan">Pengaturan</a></nav>
+    <main id="app"></main>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <script type="module" src="assets/js/app.js"></script>
+</body>
+
+</html>
